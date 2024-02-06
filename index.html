@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice figma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css    "
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- loader -->
+      <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+      </div>
+      <nav class="bar">
+        <div class="left-logo">
+          <img src="images/Logo.png" alt="#" />
+          <ul class="list-items list">
+            <li>Team</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="right-logo">
+          <div class="navBtns">
+            <div class="toggle-btn" onclick="toggleContent()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="content" id="content">
+        <div class="close-btn" onclick="closeContent()">
+          <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="content-all">
+          <div class="content-img">
+            <img
+              src="images/content-logo.jpg"
+              alt="logo"
+              class="content-logo"
+            />
+          </div>
+          <div class="content-text">
+            <h4>Makers Fund</h4>
+            <h1>Home</h1>
+            <h1>Team</h1>
+            <h1>Portfolio</h1>
+            <h1>News</h1>
+            <h1>Jobs</h1>
+            <div class="content-links">
+              <a>Linkedln</a>
+              <a>Twitter</a>
+            </div>
+
+            <p class="info">info@makersfund.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left-content">
+          <div class="hero-text">
+            <h1>
+              BACKING <span class="builders">BUILDERS</span> OF THE FUTURE OF
+              INTERACTIVE <span class="builders">ENTERTAINTMENT</span>
+            </h1>
+            <p>
+              Makers Fund is a global venture capital fund dedicated to games
+              and interactive entertintment
+            </p>
+          </div>
+        </div>
+
+        <div class="right-content-cube">
+          <img src="images/cube-bg-removed.png" alt="cube" class="cube" />
+          <div class="scrol">
+            <p id="scroll-text">Scroll to discover</p>
+            <i class="fa-solid fa-arrow-down arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main">
+        <div class="right-content-cube">
+          <img src="images/cube-bg-removed.png" alt="cube" class="cube" />
+        </div>
+        <div class="left-content">
+          <div class="hero-text">
+            <p class="support">We support</p>
+            <h1>INNOVATIVE, <span class="builders">AMBITIOUS</span>FOUNDERS</h1>
+            <p>
+              Our fund helps visionary enterpreneures create their initial
+              foundation and support them as they navigate the waters of
+              early-stage business
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- accordion section -->
+      <div class="hero-text accor">
+        <p class="support">We Embrace</p>
+        <h1>
+          <span class="builders">OUR </span> CULTURE AND
+          <span class="builders">VALUES</span>
+        </h1>
+      </div>
+      <div class="accordion">
+        <div class="accor-left">
+          <ul class="accordion-list">
+            <li class="accordion-item">
+              <i
+                class="fa-regular fa-snowflake"
+                style="font-size: 70px; animation: rotate 6s linear infinite"
+                ;
+              ></i>
+              <span class="accordion-text">EMBRACING THE INDUSTRY</span>
+              <div class="accordion-content">
+                Our passion for interactive entertainment drives our desire for
+                industry growth and innovation
+              </div>
+            </li>
+            <li class="accordion-item">
+              <i
+                class="fa-solid fa-arrows-to-circle"
+                style="font-size: 70px; animation: rotate 6s linear infinite"
+                ;
+              ></i>
+              <span class="accordion-text">FAITH IN OUR FOUNDERS</span>
+              <div class="accordion-content">
+                The past, present and future of our industry is powered by
+                visionaries.We trust and support our founders by providing
+                capital, strategic guidance, and access to all global network of
+                allies.
+              </div>
+            </li>
+            <li class="accordion-item">
+              <i
+                class="fa-solid fa-robot"
+                style="font-size: 70px; animation: rotate 6s linear infinite"
+              ></i>
+              <span class="accordion-text">CHARGING FORWARD, TOGETHER</span>
+              <div class="accordion-content">
+                Our knowledge, experiance, and global network keep us attunded
+                to the industry's shifting landscape.We seize opportunities and
+                support our founders throughn ever-uncertain times
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="right-hero">
+          <div class="right-content-cube">
+            <img src="images/cube-bg-removed.png" alt="cube" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="logos-text">
+        <p>We Empower</p>
+        <h2>ECOSYSTEM</h2>
+      </div>
+      <ul class="logos">
+        <li><img src="images/air.png" alt="" /></li>
+        <li><img src="images/hub.png" alt="" /></li>
+        <li><img src="images/google.png" alt="" /></li>
+        <li><img src="images/micro.png" alt="" /></li>
+        <li><img src="images/walmart.png" alt="" /></li>
+        <li><img src="images/Ex.png" alt="" /></li>
+      </ul>
+    </div>
+    <section class="container">
+      <div class="top-content">
+        <h2>Tailor-made Features</h2>
+        <p>
+          Lorem ipsum is common placeholder text used to demonstrate the graphic
+          elements of a document or visual presentation.
+        </p>
+      </div>
+      <div class="main-content">
+        <div class="div1">
+          <img src="images/div1.png" alt="" />
+          <h3>Robust workflow</h3>
+          <p>
+            Lorem ipsum door sit amet,consectatur edipiscing elit.Sed erat nibh
+            tristique ipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="images/div2.png" alt="" />
+          <h3>Flexibility</h3>
+          <p>
+            Lorem ipsum door sit amet,consectatur edipiscing elit.Sed erat nibh
+            tristique ipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="images/div3.png" alt="" />
+          <h3>User Friendly</h3>
+          <p>
+            Lorem ipsum door sit amet,consectatur edipiscing elit.Sed erat nibh
+            tristique ipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="images/div4.png" alt="" />
+          <h3>Multiple Layouts</h3>
+          <p>
+            Lorem ipsum door sit amet,consectatur edipiscing elit.Sed erat nibh
+            tristique ipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="images/div5.png" alt="" />
+          <h3>Better Components</h3>
+          <p>
+            Lorem ipsum door sit amet,consectatur edipiscing elit.Sed erat nibh
+            tristique ipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="images/div6.png" alt="" />
+          <h3>Well organised</h3>
+          <p>
+            Lorem ipsum door sit amet,consectatur edipiscing elit.Sed erat nibh
+            tristique ipsum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- 2nd last section -->
+    <div class="second-last-section">
+      <div class="last-section-text">
+        <p>We Invest</p>
+        <h2>
+          IN CREATORS<br />
+          WITH<br />
+          DEEP<br />
+          CRAFTSMANSHIP
+        </h2>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="end">
+          <div class="detils">
+            <div class="f-logo">
+              <img src="images/Logomark.png" alt="" />
+            </div>
+            <div class="download">
+              <ul>
+                <li>Download Now</li>
+                <li>License</li>
+              </ul>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>About</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>News</li>
+                <li>Help</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+
+            <div class="copyright">
+              <p>© 2021 Landify UI Kit. All rights reserved</p>
+            </div>
+          </div>
+          <div class="second">
+            <p>Get the App</p>
+            <div class="end-logos">
+              <div class="app">
+                <img src="images/apple logo.png" alt="" />
+              </div>
+              <div class="play">
+                <img src="images/Store badge.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</html>
