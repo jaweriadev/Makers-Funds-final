@@ -493,7 +493,14 @@ body {
   flex-direction: column;
   gap: 16px;
 }
-
+.empower {
+  padding-bottom: 100px;
+}
+.team {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
 /*media queries*/
 
 @media screen and (max-width: 1024px) and (min-width: 767px) {
@@ -538,6 +545,10 @@ body {
   .accordion-item {
     gap: 11px;
   }
+  .accor {
+    text-align: center;
+    max-width: 100vw;
+  }
   .end {
     flex-wrap: wrap;
   }
@@ -546,6 +557,12 @@ body {
     max-width: 393px;
     width: 100%;
     gap: 40px;
+  }
+  .right-content-cube {
+    padding-top: 0;
+  }
+  .second-support {
+    flex-direction: column-reverse;
   }
   .bar {
     padding: 26px 0;
