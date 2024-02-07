@@ -520,7 +520,21 @@ body {
   .hero-text p {
     font-size: 16px;
   }
-
+  .content-img img {
+    display: none !important;
+  }
+  .content-all {
+    text-align: center;
+    height: 10vh;
+  }
+  .content-text {
+    width: 100vw;
+    padding-left: 0;
+    gap: 20px;
+  }
+  .content-text h1 {
+    font-size: 25px;
+  }
   .accordion-item {
     gap: 11px;
   }
